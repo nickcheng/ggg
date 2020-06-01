@@ -17,6 +17,8 @@ Personal Git/GitHub/Gist Helper
 
 ## How to Install
 
+[![asciicast](https://asciinema.org/a/fzsrq3YTkPEes3RCfqSqgRGJK.svg)](https://asciinema.org/a/fzsrq3YTkPEes3RCfqSqgRGJK)
+
 Python 3 required.
 
 1. Clone the repo
