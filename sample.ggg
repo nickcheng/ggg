@@ -1,0 +1,24 @@
+# This file is in TOML format.
+# Please don't modify the key name. Just add new values into the array.
+# Current only support two keys
+
+commit_scope = [
+    "Parser",
+    "Router",
+    "WeatherForecast",
+    "SplashScreen",
+]
+
+commit_type = [
+    "fix",
+    "feat",
+    "chore",
+    "refactor",
+    "test",
+    "ci",
+    "docs",
+    "style",
+    "perf",
+    "build",
+    "BREAKING CHANGE",
+]
