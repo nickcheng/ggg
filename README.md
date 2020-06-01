@@ -1,6 +1,6 @@
 # ggg
 
-Personal Git/GitHub/Gist Helper
+Personal Git/GitHub/Gist Helper.
 
 - [ggg](#ggg)
   - [How to Install](#how-to-install)
