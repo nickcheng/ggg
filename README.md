@@ -36,6 +36,9 @@ touch ~/.ggg
 I have a sample configuration file `sample.ggg`. Feel free to modify it and put it into correct place(`~/`) with correct file name(`.ggg`).
 
 ## How to Use
+
+[![asciicast](https://asciinema.org/a/D5ZWrRsbEBjyZqlc4mQkiMg45.svg)](https://asciinema.org/a/D5ZWrRsbEBjyZqlc4mQkiMg45)
+
 ### Commands
 
 - [x] `ggg c`: Enter interactive commit mode.
