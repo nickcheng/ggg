@@ -15,7 +15,7 @@ readme = ''
 setup(
     long_description=readme,
     name='ggg',
-    version='0.1.0',
+    version='0.1.2',
     python_requires='==3.*,>=3.8.0',
     author='Nick',
     author_email='n@nickcheng.com',
