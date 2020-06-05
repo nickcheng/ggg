@@ -5,7 +5,7 @@ Personal Git/GitHub/Gist Helper.
 - [ggg](#ggg)
   - [How to Install](#how-to-install)
   - [How to Use](#how-to-use)
-    - [Commands](#commands)
+    - [`ggg c` Interactive Semantic Commit Helper](#ggg-c-interactive-semantic-commit-helper)
   - [How to Develop](#how-to-develop)
     - [Try run it](#try-run-it)
     - [For supporting in VS Code](#for-supporting-in-vs-code)
@@ -19,31 +19,34 @@ Personal Git/GitHub/Gist Helper.
 
 [![asciicast](https://asciinema.org/a/fzsrq3YTkPEes3RCfqSqgRGJK.svg)](https://asciinema.org/a/fzsrq3YTkPEes3RCfqSqgRGJK)
 
-Python 3 required.
+Python 3 required. ([pyenv](https://github.com/pyenv/pyenv) is recommended for managing the Python versions)
 
 1. Clone the repo
+2. Run `python setup.py install`
 
-2. `python setup.py install`
-
-3. Configuration
-
-Under your HOME directory (`~/`), create `.ggg` file.
-
-```bash
-touch ~/.ggg
-```
-
-I have a sample configuration file `sample.ggg`. Feel free to modify it and put it into correct place(`~/`) with correct file name(`.ggg`).
+For how to configure the semantic commit helper, plase check [Interactive Semantic Commit Helper](#ggg-c-interactive-semantic-commit-helper)
 
 ## How to Use
 
-[![asciicast](https://asciinema.org/a/D5ZWrRsbEBjyZqlc4mQkiMg45.svg)](https://asciinema.org/a/D5ZWrRsbEBjyZqlc4mQkiMg45)
-
-### Commands
+**Supported Commands**
 
 - [x] `ggg c`: Enter interactive commit mode.
 - [x] `ggg rb`: Checkout recent branches interactively.
 - [ ] `ggg pr`: Send pull request easier.
+
+### `ggg c` Interactive Semantic Commit Helper
+
+`ggg c`
+
+[![asciicast](https://asciinema.org/a/D5ZWrRsbEBjyZqlc4mQkiMg45.svg)](https://asciinema.org/a/D5ZWrRsbEBjyZqlc4mQkiMg45)
+
+**Configuration**
+
+You have two choices to put your configuration file.
+1. Project-wise. Put the configuration file `.ggg` under your project root directory.
+2. System-wise. Put the configuration file `.ggg` under your HOME directory (`~/`).
+
+I have a sample configuration file `sample.ggg`. Feel free to modify it and put it into correct place(in project or system) with correct file name(`.ggg`).
 
 ## How to Develop
 
