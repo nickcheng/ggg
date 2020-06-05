@@ -6,6 +6,7 @@ Personal Git/GitHub/Gist Helper.
   - [How to Install](#how-to-install)
   - [How to Use](#how-to-use)
     - [`ggg c` Interactive Semantic Commit Helper](#ggg-c-interactive-semantic-commit-helper)
+    - [`ggg rb` Recent Git Branches Switcher](#ggg-rb-recent-git-branches-switcher)
   - [How to Develop](#how-to-develop)
     - [Try run it](#try-run-it)
     - [For supporting in VS Code](#for-supporting-in-vs-code)
@@ -47,6 +48,12 @@ You have two choices to put your configuration file.
 2. System-wise. Put the configuration file `.ggg` under your HOME directory (`~/`).
 
 I have a sample configuration file `sample.ggg`. Feel free to modify it and put it into correct place(in project or system) with correct file name(`.ggg`).
+
+### `ggg rb` Recent Git Branches Switcher
+
+`ggg rb`
+
+List your recently used branches, and select to switch to it.
 
 ## How to Develop
 
